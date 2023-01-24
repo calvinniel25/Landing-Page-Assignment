@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+div {
+    display: flex;
+    flex: 1;
+}
+
+nav,
+.one,
+.footer {
+    background-color: #1F2937;
+}
+
+.textwithbutton {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 20px;
+    height: 300px;
+    
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px;
+    
+}
+
+nav {
+    display: flex;
+    
+}
+
+ul {
+    display: flex;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subtext,
+.info {
+    text-align: center;
+}
+
+.subtext {
+    max-height: 10px;
+}
+
