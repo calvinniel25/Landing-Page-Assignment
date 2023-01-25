@@ -8,6 +8,7 @@ body {
     flex: 1;
     max-width: 80vh;
     margin: 0 auto;
+    background-color: black;
 }
 
 div {
@@ -49,8 +50,8 @@ nav,
     display: flex;
     
     gap: 10px;
-    margin: 10px 60px;
-    
+    margin: 20px 70px;
+    margin-top: 0;
 }
 
 .nav {
@@ -68,6 +69,7 @@ ul {
     height: 100px;
     width: 100px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .box-one,
@@ -84,11 +86,13 @@ ul {
 }
 
 .subtext {
-    
+    margin: 8px 0;
 }
 
 button {
     width: 80px;
+    background-color: #3882F6;
+    border: none;
 }
 
 #header {
@@ -97,4 +101,27 @@ button {
 
 ul > li {
     list-style: none;
+}
+
+.quote-container {
+    display: block;
+    margin: 40px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+}
+
+.guy {
+    text-align: right;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.two {
+    background-color: white;
 }
