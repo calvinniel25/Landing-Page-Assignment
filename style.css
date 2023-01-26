@@ -125,3 +125,33 @@ ul > li {
 .two {
     background-color: white;
 }
+
+.four {
+    background-color: white;
+}
+
+.call-container {
+    background-color: #3882F6;
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#text {
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.action,
+.actiontwo {
+    margin: 5px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+#button {
+    width: 80px;
+    
+}
+
