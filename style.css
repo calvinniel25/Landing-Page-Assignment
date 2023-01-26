@@ -39,6 +39,7 @@ nav,
     max-width: 1000px;
     display: flex;
     justify-content: space-around;
+    height: 150px;
 }
 
 .info-container {
@@ -62,6 +63,8 @@ nav,
 
 ul {
     display: flex;
+    color: #F9FAF8;
+    gap: 20px;
 }
 
 .box {
@@ -85,9 +88,7 @@ ul {
     text-align: center;
 }
 
-.subtext {
-    margin: 8px 0;
-}
+
 
 button {
     width: 80px;
@@ -116,10 +117,12 @@ ul > li {
 
 .guy {
     text-align: right;
+    margin-bottom: 0;
 }
 
 .three {
     background-color: #E5E7EB;
+    
 }
 
 .two {
@@ -128,19 +131,24 @@ ul > li {
 
 .four {
     background-color: white;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-container {
     background-color: #3882F6;
-    width: 80px;
+    justify-content: space-around;
     height: 70px;
     border-radius: 10px;
+    
+    margin: 30px 60px;
 }
 
 #text {
     flex-direction: column;
     justify-content: space-evenly;
-    
+    padding: 10px;
 }
 
 .action,
@@ -148,10 +156,38 @@ ul > li {
     margin: 5px;
     margin-left: 20px;
     justify-content: center;
+    color: white;
 }
 
 #button {
     width: 80px;
-    
+    margin: 20px;
+    border-color: 2px solid white;
+    color: white;
 }
 
+.action {
+    padding-bottom: 0;
+}
+
+.actiontwo {
+    padding-top: 0;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 12px;
+    flex: 1;
+}
+
+.logo,
+#header {
+    color: #F9FAF8;
+}
+
+.description {
+    margin: 0;
+    color: #F9FAF8;
+}
